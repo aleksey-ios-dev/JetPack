@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/mmrmmlrr/JetPack"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.source = "https://github.com/mmrmmlrr/JetPack"
+  s.source = { :git => 'https://github.com/mmrmmlrr/JetPack' }
 
-  s.author             = { "aleksey" => "aleksey.chernish@yalantis.com" }
+  s.author = { "aleksey" => "aleksey.chernish@yalantis.com" }
 
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
