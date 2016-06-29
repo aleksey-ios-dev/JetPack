@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/mmrmmlrr/JetPack"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.source = { :git => 'https://github.com/mmrmmlrr/JetPack.git', :tag => v_0.9.1 }
+  s.source = { :git => 'https://github.com/mmrmmlrr/JetPack.git', :tag => v_0.9.2 }
 
   s.author = { "aleksey" => "aleksey.chernish@yalantis.com" }
 
