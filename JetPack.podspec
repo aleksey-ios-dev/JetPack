@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
                 JetPack is a lightweight reactive framework
                    DESC
 
+  s.homepage     = "https://github.com/mmrmmlrr/JetPack"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "aleksey" => "aleksey.chernish@yalantis.com" }
