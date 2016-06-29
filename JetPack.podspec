@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/mmrmmlrr/JetPack.git', :tag => s.version.to_s }
   s.description = 'JetPack is a lightweight reactive framework'
   s.framework   = 'UIKit'
+  s.source_files = 'Signal.swift'
 
 end
