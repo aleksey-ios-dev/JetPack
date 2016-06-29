@@ -1,0 +1,18 @@
+Pod::Spec.new do |s|
+
+  s.name         = "JetPack"
+  s.version      = "1.0.0"
+  s.summary      = "Lightweight reactive framework"
+
+  s.description  = <<-DESC
+                JetPack is a lightweight reactive framework
+                   DESC
+
+  s.license      = { :type => "MIT", :file => "LICENSE" }
+
+  s.author             = { "aleksey" => "aleksey.chernish@yalantis.com" }
+
+  s.platform     = :ios
+  s.ios.deployment_target = "8.0"
+  
+end
