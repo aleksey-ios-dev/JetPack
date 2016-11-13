@@ -10,8 +10,12 @@ import Foundation
 
 extension Signal {
   
-  func filterValidWith(validator: (T -> Bool)) -> Signal<T> {
+  public func filterValidWith(validator: (T -> Bool)) -> Signal<T> {
     return self.filter { validator($0) }
+  }
+  
+  public func mapValidWith(validator: (T -> Bool)) -> Signal<Bool> {
+    return self.map { validator($0) }
   }
   
 }
